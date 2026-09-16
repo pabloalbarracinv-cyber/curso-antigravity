@@ -179,3 +179,80 @@ code, pre, .font-mono {
   box-shadow: 0 30px 100px -20px rgba(99, 102, 241, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.9);
 }
 
+/* Dark Tech Horizon Additions */
+.dark-mesh-bg {
+  background-color: #0A0E17;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(6, 182, 212, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(37, 99, 235, 0.1) 0%, transparent 40%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+  background-attachment: fixed;
+}
+
+.glass-island {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-cyan-glow {
+  background: linear-gradient(135deg, #06B6D4 0%, #2563EB 100%);
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-cyan-glow:hover {
+  background: linear-gradient(135deg, #08cbe0 0%, #2e72fc 100%);
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.5);
+  transform: translateY(-1px) scale(1.02);
+}
+
+.glow-box-cyan, .glow-box-blue, .glow-box-emerald {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.glow-box-cyan:hover {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+  border-color: rgba(6, 182, 212, 0.5);
+}
+
+.glow-box-blue:hover {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+  border-color: rgba(37, 99, 235, 0.5);
+}
+
+.glow-box-emerald:hover {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+  border-color: rgba(16, 185, 129, 0.5);
+}
+
+/* Modificar colores base para modo oscuro */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.4) !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.glass-panel-elevated {
+  background: rgba(15, 23, 42, 0.6) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(135deg, #E2E8F0 15%, #06B6D4 65%, #3B82F6 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.cinema-glow {
+  box-shadow: 0 30px 100px -20px rgba(6, 182, 212, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.1) !important;
+}
