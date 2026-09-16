@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Cero a Estratega | Convierte a la IA en tu Socio de Negocios con Antigravity</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f5f7ff',
+              100: '#ebf0fe',
+              500: '#4f46e5',
+              600: '#4338ca',
+              700: '#3730a3',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom Styles Picasso Tech -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="prismatic-canvas min-h-screen text-slate-800 antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- ========================================================================= -->
+  <!-- 1. CABECERA LIMPIA, ELEGANTE Y RESPALDADA POR GOOGLE -->
+  <!-- ========================================================================= -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-white/85 border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logotipo con insignia de Google -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-sky-500 to-emerald-400 p-[2px] shadow-sm transition-transform group-hover:scale-105">
+          <div class="w-full h-full bg-white rounded-[10px] flex items-center justify-center">
+            <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <div class="flex items-center space-x-1.5">
+            <span class="font-extrabold text-xl tracking-tight text-slate-900 block leading-none">Antigravity</span>
+            <span class="text-[10px] font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 border border-slate-200">Google Tech</span>
+          </div>
+          <span class="text-xs font-semibold text-slate-500">Tu socio digital con Inteligencia Artificial</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600">
+        <a href="#perfiles" class="hover:text-indigo-600 transition-colors">¿Para quién es?</a>
+        <a href="#demostracion" class="hover:text-indigo-600 transition-colors">Cómo te ayuda</a>
+        <a href="#casos-reales" class="hover:text-indigo-600 transition-colors">Casos Reales</a>
+        <a href="#simulador-grafico" class="hover:text-indigo-600 transition-colors">Simulación Visual</a>
+        <a href="#programa" class="hover:text-indigo-600 transition-colors">Temario</a>
+        <a href="#inversion" class="hover:text-indigo-600 transition-colors">Horarios y Costo</a>
+      </nav>
+
+      <!-- Botón de Acción Principal -->
+      <div class="flex items-center space-x-3">
+        <button onclick="openModal()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm shadow-md shadow-indigo-500/20 hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-200 flex items-center space-x-2">
+          <span>Apartar cupo ($160 USD)</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- 2. HERO: CLARO, HUMANO Y DE ALTO IMPACTO (MODO LUZ) -->
+  <!-- ========================================================================= -->
+  <section class="relative pt-12 pb-20 overflow-hidden tech-grid-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Píldoras de respaldo institucional -->
+      <div class="flex flex-wrap items-center justify-center gap-2.5 mb-6">
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-bold text-slate-700 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+          <span>Plataforma Oficial de Google</span>
+        </div>
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-200 text-xs font-bold text-indigo-800 shadow-sm">
+          <span>Grupos Ultra-Exclusivos de 1 a 6 Asistentes</span>
+        </div>
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-bold text-emerald-800 shadow-sm">
+          <span>3 Sesiones de 3 Horas • 100% Virtual</span>
+        </div>
+      </div>
+
+      <!-- Título Principal y Promesa de Valor -->
+      <div class="text-center max-w-4xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
+          Convierte a la Inteligencia Artificial en el <span class="text-gradient-primary">mejor empleado y socio de tu negocio.</span>
+        </h1>
+        
+        <p class="mt-6 text-lg sm:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+          Aprende a dominar <strong class="text-slate-900 font-semibold">Antigravity</strong>, la avanzada plataforma de agentes de Google. Descubre cómo darle órdenes en español para que construya tus páginas, conecte tu WhatsApp, automatice tus clientes y cree sistemas a la medida sin saber programar.
+        </p>
+
+        <!-- Botones de Acción -->
+        <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button onclick="openModal()" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-base shadow-xl shadow-indigo-600/20 hover:scale-[1.02] transition-all flex items-center justify-center space-x-2">
+            <span>Inscribirme por $160 USD</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </button>
+          <a href="#trailer" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-white hover:bg-indigo-50/50 text-indigo-700 font-bold text-base border border-indigo-200 shadow-sm hover:shadow-md transition-all flex items-center justify-center space-x-2 group">
+            <span class="w-3 h-3 rounded-full bg-rose-500 animate-pulse"></span>
+            <span>Ver Tráiler Oficial (60s)</span>
+          </a>
+          <a href="#demostracion" class="w-full sm:w-auto px-6 py-4 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold text-base border border-slate-300/80 shadow-sm transition-all flex items-center justify-center space-x-2">
+            <span>Ver cómo hablamos con la IA</span>
+          </a>
+        </div>
+
+        <!-- 3 Promesas Clave y Horarios -->
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 text-left max-w-4xl mx-auto">
+          <div class="p-4 rounded-2xl bg-white/90 border border-slate-200 shadow-sm">
+            <div class="text-indigo-600 font-extrabold text-base flex items-center space-x-2">
+              <span class="w-2 h-2 rounded-full bg-indigo-500"></span>
+              <span>1 a 6 Personas Máximo</span>
+            </div>
+            <div class="text-xs text-slate-600 mt-1">Cero grupos masivos donde nadie aprende. Cada asistente recibe acompañamiento en vivo en sus propios proyectos.</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white/90 border border-slate-200 shadow-sm">
+            <div class="text-sky-600 font-extrabold text-base flex items-center space-x-2">
+              <span class="w-2 h-2 rounded-full bg-sky-500"></span>
+              <span>3 Sesiones de 3 Horas</span>
+            </div>
+            <div class="text-xs text-slate-600 mt-1">9 horas intensivas 100% prácticas donde creas herramientas reales desde la primera clase.</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white/90 border border-slate-200 shadow-sm">
+            <div class="text-emerald-600 font-extrabold text-base flex items-center space-x-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+              <span>Horarios Flexibles</span>
+            </div>
+            <div class="text-xs text-slate-600 mt-1">Turnos en Mañana, Tarde y Noche (Bogotá, Colombia y CDMX, México) adaptados a tu día a día.</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 2.5. SECCIÓN CINEMATOGRÁFICA: TRÁILER OFICIAL (ALTO IMPACTO) -->
+  <!-- ========================================================================= -->
+  <section id="trailer" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <!-- Luces volumétricas de fondo del cine -->
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Encabezado de Cine -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-xs font-mono font-bold text-indigo-300 mb-4">
+          <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+          <span>TRÁILER CINEMATOGRÁFICO OFICIAL • 60s</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+          El Despertar de la Inteligencia Artificial con Manos
+        </h2>
+        <p class="mt-3 text-slate-300 text-sm sm:text-base leading-relaxed">
+          Mira y escucha el tráiler oficial. Descubre por qué Antigravity de Google no es una herramienta para chatear, sino el centro de mando que tu negocio estaba esperando.
+        </p>
+      </div>
+
+      <!-- Reproductor Cinemático Widescreen 16:9 -->
+      <div class="max-w-5xl mx-auto glass-panel-elevated bg-slate-950/90 rounded-3xl border border-slate-700 shadow-2xl overflow-hidden cinema-glow">
+        
+        <!-- Pantalla de Video 16:9 con tu archivo MP4 real -->
+        <div class="relative w-full aspect-video overflow-hidden bg-black flex items-center justify-center group" id="cinema-viewport">
+          
+          <video id="main-course-video" class="w-full h-full object-cover" playsinline controls preload="auto" poster="assets/trailer_scene_1.jpg">
+            <source src="curso_antigravity_1.mp4" type="video/mp4">
+            <source src="assets/curso_antigravity_1.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video HTML5.
+          </video>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 3. SECCIÓN: ¿A QUIÉN ESTÁ DIRIGIDO ESTE CURSO? (LOS 3 CAMINOS) -->
+  <!-- ========================================================================= -->
+  <section id="perfiles" class="py-20 bg-white border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100">
+          Enfoque a tu Medida
+        </span>
+        <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Elige tu objetivo y mira cómo cambia tu día a día
+        </h2>
+        <p class="mt-3 text-slate-600 text-base">
+          Tanto si tienes un negocio propio, diriges un equipo o quieres asegurar tu valor profesional, este curso te da las herramientas exactas para lograrlo.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- PERFIL 1: Emprendedores y Negocios en Crecimiento -->
+        <div class="glass-panel p-8 rounded-3xl border border-slate-200 hover:border-indigo-300 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+            </div>
+            <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block">Para Emprendedores</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-2">
+              Ten un equipo completo sin pagar nóminas imposibles
+            </h3>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Multiplica tu capacidad. Crea asistentes virtuales que respondan a tus clientes las 24 horas, automaticen cotizaciones, organicen tus ventas y construyan páginas para tus nuevos productos sin tener que contratar agencias externas.
+            </p>
+            <div class="mt-6 pt-4 border-t border-slate-100 space-y-2 text-xs text-slate-700 font-medium">
+              <div class="flex items-center space-x-2">
+                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                <span>Ahorra hasta el 80% en costos de software</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                <span>Lanza nuevas ideas en días, no en meses</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="openModalWithProfile('Emprendedor')" class="mt-8 w-full py-3 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold text-xs transition-colors">
+            Aprender como Emprendedor →
+          </button>
+        </div>
+
+        <!-- PERFIL 2: Empresarios y Equipos de Trabajo -->
+        <div class="glass-panel-elevated p-8 rounded-3xl border border-sky-200 hover:border-sky-400 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+          <div class="absolute top-0 right-0 bg-sky-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-wider">
+            Recomendado para Empresas
+          </div>
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center mb-6">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+            <span class="text-xs font-bold text-sky-600 uppercase tracking-wider block">Para Empresarios y Directivos</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-2">
+              Haz que todo tu equipo trabaje alineado con la misma herramienta
+            </h3>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Capacita a tus colaboradores para que cada área cree sus propias soluciones interconectadas. Administra tus procesos con un sistema único hecho a la medida de tu empresa, sin depender de desarrolladores ni licencias caras.
+            </p>
+            <div class="mt-6 pt-4 border-t border-slate-100 space-y-2 text-xs text-slate-700 font-medium">
+              <div class="flex items-center space-x-2">
+                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                <span>Tu empresa hablando el mismo lenguaje</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                <span>Plataformas a la medida de tus necesidades</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="openModalWithProfile('Empresario')" class="mt-8 w-full py-3 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs transition-colors shadow-md shadow-sky-500/20">
+            Capacitar a mi Empresa →
+          </button>
+        </div>
+
+        <!-- PERFIL 3: Profesionales que quieren blindar su futuro -->
+        <div class="glass-panel p-8 rounded-3xl border border-slate-200 hover:border-emerald-300 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-6">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              </svg>
+            </div>
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider block">Para Profesionales y Empleados</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-2">
+              Blinda tu carrera y genera ingresos independientes
+            </h3>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              No dejes que la IA te quite tu empleo: sé quien la domine. Al aprender a construir soluciones con IA, te vuelves la persona más valiosa de tu empresa y abres la puerta a ganar dinero extra vendiendo automatizaciones a otros negocios.
+            </p>
+            <div class="mt-6 pt-4 border-t border-slate-100 space-y-2 text-xs text-slate-700 font-medium">
+              <div class="flex items-center space-x-2">
+                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                <span>Pasa de ejecutor reemplazable a estratega clave</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                <span>Genera fuentes de ingresos alternas</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="openModalWithProfile('Profesional')" class="mt-8 w-full py-3 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-bold text-xs transition-colors">
+            Potenciar mi Perfil →
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 4. CASOS REALES DE DESARROLLO Y NEGOCIO QUE CONSTRUIRÁS -->
+  <!-- ========================================================================= -->
+  <section id="casos-reales" class="py-24 tech-grid-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100">
+          Aplicaciones del Mundo Real
+        </span>
+        <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          ¿Qué tipo de soluciones puedes construir con Antigravity?
+        </h2>
+        <p class="mt-3 text-slate-600 text-base">
+          Desde automatizar la atención de tu negocio hasta crear simuladores y herramientas avanzadas. Todo construido hablándole a tu asistente en lenguaje natural.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Caso 1: Conexión WhatsApp -->
+        <div class="glass-panel p-6 rounded-2xl hover:border-emerald-300 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold mb-4">
+            💬
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Atención y Ventas por WhatsApp</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Asistentes que responden preguntas frecuentes, cotizan servicios en segundos y agendan citas con clientes directamente a tu calendario, 24/7 sin descanso.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] font-semibold text-emerald-600">
+            Ideal para: Clínicas, servicios y tiendas online.
+          </div>
+        </div>
+
+        <!-- Caso 2: CRM a la Medida -->
+        <div class="glass-panel p-6 rounded-2xl hover:border-indigo-300 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4">
+            📊
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Sistemas de Gestión de Clientes (CRM)</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Ten el control de tus prospectos, etapas de venta y notas de seguimiento en una plataforma diseñada exactamente como tú trabajas, sin pagar suscripciones mensuales.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] font-semibold text-indigo-600">
+            Ideal para: Agencias, consultores y empresas B2B.
+          </div>
+        </div>
+
+        <!-- Caso 3: Consultorios Médicos -->
+        <div class="glass-panel p-6 rounded-2xl hover:border-sky-300 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center font-bold mb-4">
+            🩺
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Consultorios Médicos y Clínicas</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Recepción virtual de pacientes, recordatorios automáticos de citas para reducir inasistencias y organización de expedientes clínicos con total privacidad.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] font-semibold text-sky-600">
+            Ideal para: Médicos, odontólogos y terapeutas.
+          </div>
+        </div>
+
+        <!-- Caso 4: Sistemas de Soporte ITS -->
+        <div class="glass-panel p-6 rounded-2xl hover:border-purple-300 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center font-bold mb-4">
+            🛠️
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Sistemas ITS y Soporte Técnico</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Mesas de ayuda automatizadas que resuelven dudas comunes de empleados o clientes, diagnostican problemas y asignan tareas al personal indicado sin retrasos.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] font-semibold text-purple-600">
+            Ideal para: Empresas con equipos de soporte u operaciones.
+          </div>
+        </div>
+
+        <!-- Caso 5: Entrenador de Carreras / Deportes (Video Real) -->
+        <div class="glass-panel p-6 rounded-2xl hover:border-amber-300 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold mb-4">
+            🏃
+          </div>
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-bold text-slate-900">Entrenador de Velocidad</h3>
+            <a href="https://www.youtube.com/watch?v=SzmfH4P00vI" target="_blank" class="text-xs font-bold text-red-600 hover:underline flex items-center space-x-1">
+              <span>Ver Video</span>
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 22c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 2c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+          </div>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Caso real documentado: cómo una persona construyó con Antigravity una aplicación completa de entrenamiento de velocidad y análisis deportivo con visión y cronómetros.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] font-semibold text-amber-600">
+            Demuestra: Capacidad de crear apps con lógica física compleja.
+          </div>
+        </div>
+
+        <!-- Caso 6: Simulador Visual Interactivo (Video Real) -->
+        <div class="glass-panel p-6 rounded-2xl hover:border-indigo-300 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4">
+            🌌
+          </div>
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-bold text-slate-900">Simuladores Interactivos</h3>
+            <a href="https://www.youtube.com/watch?v=xlALU-kyFdw" target="_blank" class="text-xs font-bold text-red-600 hover:underline flex items-center space-x-1">
+              <span>Ver Video</span>
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 22c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 2c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+          </div>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Construcción de simulaciones visuales con fluidos y partículas en movimiento, creadas enteramente con instrucciones directivas a la IA.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] font-semibold text-indigo-600">
+            Pruébalo abajo: Hemos incluido una simulación en vivo en esta página.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 5. SIMULADOR GRÁFICO INTERACTIVO EN VIVO (PICASSO TECH PARTICLES) -->
+  <!-- ========================================================================= -->
+  <section id="simulador-grafico" class="py-20 bg-white border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100">
+          Potencial Gráfico de Antigravity
+        </span>
+        <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Simulación Interactiva en Tiempo Real
+        </h2>
+        <p class="mt-3 text-slate-600 text-sm">
+          Inspirado en los desarrollos visuales creados con Antigravity. Pasa tu cursor o toca la pantalla para interactuar con el flujo de energía y partículas:
+        </p>
+      </div>
+
+      <!-- Contenedor del Canvas Interactivo -->
+      <div class="max-w-4xl mx-auto glass-panel-elevated p-4 rounded-3xl border border-slate-200 shadow-xl relative overflow-hidden">
+        <div class="relative w-full h-[320px] rounded-2xl overflow-hidden bg-slate-900 flex items-center justify-center">
+          <canvas id="particle-canvas" class="w-full h-full cursor-crosshair"></canvas>
+          <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-slate-200 text-[11px] font-mono font-bold text-slate-700 shadow-sm pointer-events-none">
+            Interactúa con el cursor • Física de fluidos en vivo
+          </div>
+          <div class="absolute top-4 right-4 flex space-x-2">
+            <button onclick="cambiarColorParticulas('#6366f1')" class="w-6 h-6 rounded-full bg-indigo-500 border-2 border-white shadow-sm" title="Color Índigo"></button>
+            <button onclick="cambiarColorParticulas('#06b6d4')" class="w-6 h-6 rounded-full bg-cyan-400 border-2 border-white shadow-sm" title="Color Cian"></button>
+            <button onclick="cambiarColorParticulas('#10b981')" class="w-6 h-6 rounded-full bg-emerald-400 border-2 border-white shadow-sm" title="Color Esmeralda"></button>
+            <button onclick="cambiarColorParticulas('#f43f5e')" class="w-6 h-6 rounded-full bg-rose-500 border-2 border-white shadow-sm" title="Color Rosa"></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 6. DEMOSTRACIÓN DE CHAT EN ESPAÑOL NATURAL -->
+  <!-- ========================================================================= -->
+  <section id="demostracion" class="py-24 tech-grid-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100">
+          Simulación en Tiempo Real
+        </span>
+        <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Mira cómo es hablarle a un asistente que realmente hace las cosas
+        </h2>
+        <p class="mt-3 text-slate-600 text-base">
+          Olvida los comandos técnicos. Aquí le hablas como si fuera tu socio o tu mano derecha. Selecciona un ejemplo y mira cómo entiende y ejecuta la tarea de principio a fin.
+        </p>
+
+        <!-- Selector de Ejemplos Cotidianos -->
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <button onclick="cargarEjemploChat(1)" id="chat-tab-1" class="px-4 py-2 text-xs font-bold rounded-xl bg-indigo-600 text-white shadow-sm transition-all">
+            Ejemplo 1: Crear una página para captar clientes
+          </button>
+          <button onclick="cargarEjemploChat(2)" id="chat-tab-2" class="px-4 py-2 text-xs font-bold rounded-xl bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 transition-all">
+            Ejemplo 2: Automatizar cotizaciones y pedidos
+          </button>
+          <button onclick="cargarEjemploChat(3)" id="chat-tab-3" class="px-4 py-2 text-xs font-bold rounded-xl bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 transition-all">
+            Ejemplo 3: Crear una herramienta para mi equipo
+          </button>
+        </div>
+      </div>
+
+      <!-- Ventana de Chat Limpia y Amigable (Modo Luz) -->
+      <div class="max-w-3xl mx-auto glass-panel-elevated rounded-3xl border border-slate-200/90 shadow-2xl overflow-hidden">
+        
+        <!-- Barra Superior de la Conversación -->
+        <div class="bg-slate-50/90 px-6 py-4 border-b border-slate-200/80 flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <div class="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold text-sm shadow-sm">
+              AG
+            </div>
+            <div>
+              <div class="text-sm font-bold text-slate-900">Antigravity (Tu Asistente de Google)</div>
+              <div class="text-xs text-emerald-600 font-semibold flex items-center space-x-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                <span>Listo para trabajar</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="iniciarAnimacionChat()" class="px-3 py-1.5 rounded-lg bg-indigo-50 border border-indigo-200 text-xs font-bold text-indigo-700 hover:bg-indigo-100 transition-colors">
+            Volver a reproducir conversación
+          </button>
+        </div>
+
+        <!-- Área de Conversación Dinámica -->
+        <div class="p-6 space-y-4 bg-white/60 min-h-[380px]" id="chat-container">
+          
+          <!-- Mensaje del Usuario -->
+          <div class="flex items-start space-x-3 justify-end">
+            <div class="bg-indigo-600 text-white p-4 rounded-2xl rounded-tr-none max-w-lg text-sm shadow-sm leading-relaxed" id="chat-user-message">
+              "Hola amigo, tengo un negocio de asesorías y quiero una página web moderna donde la gente pueda ver mis servicios y dejarme sus datos. Conéctala a una tabla donde yo pueda ver los clientes y que todo quede listo para usarse."
+            </div>
+            <div class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-700 flex-shrink-0">
+              Tú
+            </div>
+          </div>
+
+          <!-- Mensaje y Acciones de la IA -->
+          <div class="flex items-start space-x-3" id="chat-ai-response-block">
+            <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-600 to-cyan-500 flex items-center justify-center text-xs font-bold text-white flex-shrink-0 shadow-sm">
+              AG
+            </div>
+            <div class="space-y-3 max-w-lg">
+              <div class="bg-slate-50 text-slate-800 p-4 rounded-2xl rounded-tl-none border border-slate-200 text-sm leading-relaxed shadow-sm" id="chat-ai-text">
+                "¡Cuenta con ello, socio! No te preocupes por la parte técnica. Ya entendí tu objetivo: voy a crear una página elegante con diseño claro, conectaré un formulario para guardar los contactos en tu base de datos y comprobaré que todo funcione antes de entregártela."
+              </div>
+
+              <!-- Lista de tareas que la IA va realizando sola -->
+              <div class="p-4 rounded-xl bg-white border border-slate-200 space-y-2 text-xs font-medium text-slate-700 shadow-sm" id="chat-actions-list">
+                <div class="flex items-center space-x-2 text-emerald-600">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                  <span>1. Estructura y diseño de la página creados (diseño limpio y profesional).</span>
+                </div>
+                <div class="flex items-center space-x-2 text-emerald-600">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                  <span>2. Base de datos conectada para recibir nombres, correos y teléfonos.</span>
+                </div>
+                <div class="flex items-center space-x-2 text-indigo-600">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+                  <span>3. Verificación automática en navegador: El formulario envía los datos sin fallar.</span>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-slate-500 font-semibold flex justify-between items-center">
+                  <span>Tiempo total de ejecución:</span>
+                  <span class="text-indigo-600 font-bold">2 minutos y 15 segundos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Barra inferior del chat simulado -->
+        <div class="bg-slate-50 px-6 py-3 border-t border-slate-200 text-center text-xs text-slate-500">
+          Así de sencillo es trabajar con Antigravity: <strong>tú das la visión, la plataforma de Google se encarga de la construcción.</strong>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 7. DETALLES DE INVERSIÓN, LOGÍSTICA Y HORARIOS (COLOMBIA / MÉXICO) -->
+  <!-- ========================================================================= -->
+  <section id="inversion" class="py-20 bg-white border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-5xl mx-auto glass-panel-elevated p-8 sm:p-12 rounded-3xl border border-indigo-200/90 shadow-2xl relative overflow-hidden">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Columna Izquierda: Precio y Formato -->
+          <div class="lg:col-span-6">
+            <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100">
+              Inversión y Formato
+            </span>
+            <div class="mt-4 flex items-baseline space-x-2">
+              <span class="text-5xl font-extrabold text-slate-900 tracking-tight">$160</span>
+              <span class="text-lg font-bold text-slate-500">USD / asistente</span>
+            </div>
+            <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+              Un programa diseñado para que amortices tu inversión en la primera semana de aplicación en tu trabajo o negocio.
+            </p>
+
+            <div class="mt-6 space-y-3 text-xs text-slate-700 font-medium">
+              <div class="flex items-center space-x-3">
+                <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">✓</span>
+                <span><strong>Grupos de 1 a 6 asistentes:</strong> Máxima personalización y resolución de tus dudas en vivo.</span>
+              </div>
+              <div class="flex items-center space-x-3">
+                <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">✓</span>
+                <span><strong>3 sesiones de 3 horas:</strong> 9 horas prácticas de inmersión y desarrollo real.</span>
+              </div>
+              <div class="flex items-center space-x-3">
+                <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">✓</span>
+                <span><strong>100% Virtual:</strong> Conéctate desde cualquier lugar con tu computadora.</span>
+              </div>
+              <div class="flex items-center space-x-3">
+                <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">✓</span>
+                <span><strong>Ecosistema Google:</strong> Aprenderás a integrar Antigravity con Gemini y Google Cloud.</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <button onclick="openModal()" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm shadow-xl shadow-indigo-600/25 transition-all">
+                Reservar Mi Cupo Personalizado
+              </button>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Horarios Disponibles -->
+          <div class="lg:col-span-6 bg-slate-50/90 p-6 sm:p-8 rounded-2xl border border-slate-200">
+            <h3 class="text-base font-bold text-slate-900 flex items-center space-x-2">
+              <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Horarios Disponibles (Colombia, Bogotá / México, CDMX)</span>
+            </h3>
+            <p class="text-xs text-slate-500 mt-1">
+              Horario fijo sin cambios: México (CDMX) está 1 hora detrás de Colombia (Bogotá).
+            </p>
+
+            <div class="mt-5 space-y-3 font-mono text-xs">
+              
+              <!-- Turno Mañana -->
+              <div class="p-3.5 rounded-xl bg-white border border-slate-200 hover:border-indigo-300 transition-all flex items-center justify-between">
+                <div>
+                  <span class="font-bold text-slate-900 block text-sm">🌅 Turno Mañana</span>
+                  <span class="text-slate-800 text-xs font-bold">8:00 a.m. a 11:00 a.m. <span class="text-indigo-600 font-semibold">(Colombia / Bogotá)</span></span>
+                  <span class="text-slate-600 text-[11px] block mt-0.5">7:00 a.m. a 10:00 a.m. <span class="text-slate-500 font-semibold">(México / CDMX)</span></span>
+                </div>
+                <span class="text-[11px] font-bold px-2 py-1 rounded bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  Cupos Abiertos
+                </span>
+              </div>
+
+              <!-- Turno Tarde -->
+              <div class="p-3.5 rounded-xl bg-white border border-slate-200 hover:border-indigo-300 transition-all flex items-center justify-between">
+                <div>
+                  <span class="font-bold text-slate-900 block text-sm">☀️ Turno Tarde</span>
+                  <span class="text-slate-800 text-xs font-bold">2:00 p.m. a 5:00 p.m. <span class="text-indigo-600 font-semibold">(Colombia / Bogotá)</span></span>
+                  <span class="text-slate-600 text-[11px] block mt-0.5">1:00 p.m. a 4:00 p.m. <span class="text-slate-500 font-semibold">(México / CDMX)</span></span>
+                </div>
+                <span class="text-[11px] font-bold px-2 py-1 rounded bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  Cupos Abiertos
+                </span>
+              </div>
+
+              <!-- Turno Noche -->
+              <div class="p-3.5 rounded-xl bg-white border border-slate-200 hover:border-indigo-300 transition-all flex items-center justify-between">
+                <div>
+                  <span class="font-bold text-slate-900 block text-sm">🌙 Turno Noche</span>
+                  <span class="text-slate-800 text-xs font-bold">8:00 p.m. a 11:00 p.m. <span class="text-indigo-600 font-semibold">(Colombia / Bogotá)</span></span>
+                  <span class="text-slate-600 text-[11px] block mt-0.5">7:00 p.m. a 10:00 p.m. <span class="text-slate-500 font-semibold">(México / CDMX)</span></span>
+                </div>
+                <span class="text-[11px] font-bold px-2 py-1 rounded bg-indigo-50 text-indigo-700 border border-indigo-200">
+                  Alta Demanda
+                </span>
+              </div>
+
+            </div>
+
+            <div class="mt-4 text-[11px] text-slate-500 text-center">
+              *En México el horario es fijo durante todo el año, manteniendo siempre 1 hora de diferencia respecto a Colombia.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 8. PROGRAMA DEL CURSO: LOS 5 MÓDULOS (INCLUYENDO ECOSISTEMA GOOGLE) -->
+  <!-- ========================================================================= -->
+  <section id="programa" class="py-24 tech-grid-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100">
+          Temario Paso a Paso
+        </span>
+        <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          De Principiante a Creador en 3 Sesiones
+        </h2>
+        <p class="mt-3 text-slate-600 text-base">
+          Avanzaremos a través de 5 módulos prácticos organizados en nuestras 3 sesiones intensivas.
+        </p>
+      </div>
+
+      <div class="max-w-4xl mx-auto space-y-4">
+        
+        <!-- Módulo 1 -->
+        <div class="glass-panel p-6 rounded-2xl border border-slate-200 hover:border-indigo-200 transition-all">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center space-x-4">
+              <span class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-700 font-bold flex items-center justify-center text-sm border border-indigo-100 flex-shrink-0">
+                01
+              </span>
+              <div>
+                <h3 class="text-lg font-bold text-slate-900">De Perder el Miedo a Tomar el Control</h3>
+                <p class="text-xs text-slate-500 mt-0.5">Fundamentos sin tecnicismos para dueños de negocio y líderes</p>
+              </div>
+            </div>
+            <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">Módulo 1</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+            Aprende la diferencia real entre la IA que solo responde preguntas y la IA moderna que crea soluciones. Deja de usar la inteligencia artificial como un buscador de internet y aprende a tratarla como a un socio altamente capacitado.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center text-xs text-slate-500">
+            <strong class="text-slate-700 mr-2">Lo que te llevas:</strong> Identificarás el cuello de botella que más tiempo te quita hoy para resolverlo con IA.
+          </div>
+        </div>
+
+        <!-- Módulo 2 -->
+        <div class="glass-panel p-6 rounded-2xl border border-slate-200 hover:border-sky-200 transition-all">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center space-x-4">
+              <span class="w-10 h-10 rounded-xl bg-sky-50 text-sky-700 font-bold flex items-center justify-center text-sm border border-sky-100 flex-shrink-0">
+                02
+              </span>
+              <div>
+                <h3 class="text-lg font-bold text-slate-900">Tu Asistente con Manos: Conociendo Antigravity (Google)</h3>
+                <p class="text-xs text-slate-500 mt-0.5">Cómo poner a la IA a trabajar en piloto automático</p>
+              </div>
+            </div>
+            <span class="text-xs font-semibold text-sky-600 bg-sky-50 px-3 py-1 rounded-full">Módulo 2</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+            Descubre por qué la plataforma Antigravity de Google es diferente a cualquier otra: aquí la IA tiene "manos" para crear archivos, navegar por internet y probar su propio trabajo. Aprenderás a configurar los permisos para que trabaje sin pedirte autorización a cada instante.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center text-xs text-slate-500">
+            <strong class="text-slate-700 mr-2">Lo que te llevas:</strong> Tu primer encargo de trabajo delegado y completado 100% en automático.
+          </div>
+        </div>
+
+        <!-- Módulo 3 -->
+        <div class="glass-panel p-6 rounded-2xl border border-slate-200 hover:border-purple-200 transition-all">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center space-x-4">
+              <span class="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 font-bold flex items-center justify-center text-sm border border-purple-100 flex-shrink-0">
+                03
+              </span>
+              <div>
+                <h3 class="text-lg font-bold text-slate-900">El Cerebro de tu Empresa: Adiós a la IA que se Olvida de Todo</h3>
+                <p class="text-xs text-slate-500 mt-0.5">Cómo entrenar a tu asistente con las reglas de tu negocio</p>
+              </div>
+            </div>
+            <span class="text-xs font-semibold text-purple-600 bg-purple-50 px-3 py-1 rounded-full">Módulo 3</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+            ¿Cansado de explicarle lo mismo a la IA cada vez que abres una conversación? Te enseñamos a crear reglas permanentes y manuales de procedimiento para que tu asistente conozca tu tono de marca, tus políticas de precio y tu forma exacta de trabajar.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center text-xs text-slate-500">
+            <strong class="text-slate-700 mr-2">Lo que te llevas:</strong> El "manual de operaciones" digital de tu empresa configurado y activo.
+          </div>
+        </div>
+
+        <!-- Módulo 4: El Ecosistema Google y Herramientas del Mundo Real -->
+        <div class="glass-panel p-6 rounded-2xl border border-slate-200 hover:border-emerald-200 transition-all">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center space-x-4">
+              <span class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 font-bold flex items-center justify-center text-sm border border-emerald-100 flex-shrink-0">
+                04
+              </span>
+              <div>
+                <h3 class="text-lg font-bold text-slate-900">La Familia de Herramientas Google y Conexión al Mundo Real</h3>
+                <p class="text-xs text-slate-500 mt-0.5">Integrando Gemini, Google Workspace y bases de datos seguras</p>
+              </div>
+            </div>
+            <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Módulo 4</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+            Aprende cómo conectar a Antigravity con los modelos más avanzados de Google (Gemini) y con tus herramientas cotidianas de Google Workspace y bases de datos para guardar clientes, pedidos y reportes sin tocar código.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center text-xs text-slate-500">
+            <strong class="text-slate-700 mr-2">Lo que te llevas:</strong> Tu ecosistema de trabajo interconectado y funcionando.
+          </div>
+        </div>
+
+        <!-- Módulo 5 (Final) -->
+        <div class="glass-panel-elevated p-6 rounded-2xl border border-indigo-200 hover:border-indigo-400 transition-all">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center space-x-4">
+              <span class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-sky-500 text-white font-bold flex items-center justify-center text-sm flex-shrink-0 shadow-sm">
+                05
+              </span>
+              <div>
+                <h3 class="text-lg font-bold text-slate-900">Construcción en Vivo: Tu Solución Real Desplegada</h3>
+                <p class="text-xs text-slate-500 mt-0.5">De la idea al producto terminado en vivo</p>
+              </div>
+            </div>
+            <span class="text-xs font-semibold text-indigo-700 bg-indigo-100 px-3 py-1 rounded-full font-bold">Proyecto Final</span>
+          </div>
+          <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+            Construimos frente a tus ojos una solución completa para tu negocio o profesión: un CRM, una landing page, un sistema de WhatsApp o una simulación interactiva. La IA diseña, programa, corrige sus errores sola y valida que funcione.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center text-xs text-slate-500">
+            <strong class="text-indigo-600 mr-2 font-bold">Resultado Final:</strong> Te vas con una plataforma real lista para ser usada por ti o por tus clientes.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 9. SECCIÓN DE CIERRE Y LLAMADO A LA ACCIÓN -->
+  <!-- ========================================================================= -->
+  <section class="py-20 bg-gradient-to-b from-white to-indigo-50/50 border-t border-slate-200 text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-200 text-xs font-mono font-bold text-indigo-700 mb-6">
+        <span>CUPOS LIMITADOS DE 1 A 6 PERSONAS • $160 USD</span>
+      </div>
+
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
+        Aprende hoy a dirigir el futuro de tu trabajo
+      </h2>
+
+      <p class="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
+        No dejes pasar la oportunidad de tener a tu disposición el asistente digital más capaz de Google trabajando para tus metas.
+      </p>
+
+      <div class="mt-8">
+        <button onclick="openModal()" class="px-10 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-base shadow-xl shadow-indigo-600/25 hover:scale-105 transition-all">
+          Reservar mi lugar ($160 USD)
+        </button>
+      </div>
+
+      <p class="text-xs text-slate-500 mt-4">Atención personalizada en grupos pequeños de 1 a 6 asistentes. Horarios para Colombia y México.</p>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- FOOTER -->
+  <!-- ========================================================================= -->
+  <footer class="py-10 bg-white border-t border-slate-200 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4">
+      <p class="font-bold text-slate-800">Antigravity Academy • Curso Práctico con Tecnología Google</p>
+      <p class="mt-1">Diseñado para personas de negocios, equipos de trabajo y profesionales que quieren liderar el cambio.</p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL AMIGABLE DE REGISTRO CON HORARIOS Y PRECIO -->
+  <!-- ========================================================================= -->
+  <div id="reservation-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/40 backdrop-blur-md hidden transition-opacity duration-300">
+    <div class="glass-panel-elevated max-w-lg w-full mx-4 p-8 rounded-3xl relative border border-white shadow-2xl bg-white/95">
+      
+      <!-- Botón cerrar -->
+      <button onclick="closeModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700 transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+
+      <div id="modal-form-content">
+        <div class="mb-5">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest px-2.5 py-1 rounded bg-indigo-50 border border-indigo-100">
+              Reserva de Cupo VIP
+            </span>
+            <span class="text-xs font-extrabold text-slate-900 font-mono">$160 USD</span>
+          </div>
+          <h3 class="mt-2 text-2xl font-extrabold text-slate-900">
+            Aparta tu lugar en el curso
+          </h3>
+          <p class="mt-1 text-xs text-slate-600">
+            Grupos exclusivos de 1 a 6 asistentes. 3 sesiones de 3 horas 100% virtuales.
+          </p>
+        </div>
+
+        <form id="lead-form" onsubmit="handleFormSubmit(event)" class="space-y-3.5">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Nombre Completo</label>
+            <input type="text" required placeholder="Tu nombre y apellido" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Correo Electrónico</label>
+            <input type="email" required placeholder="tunombre@correo.com" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Tu Objetivo Principal</label>
+            <select id="modal-role-select" required class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white text-slate-700">
+              <option value="">Selecciona tu caso...</option>
+              <option value="Emprendedor">Tengo un negocio propio y quiero automatizar procesos</option>
+              <option value="Empresario">Quiero capacitar a mi equipo de trabajo en mi empresa</option>
+              <option value="Profesional">Soy empleado/profesional y quiero blindar mi futuro laboral</option>
+              <option value="Otro">Quiero aprender a generar ingresos creando soluciones con IA</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Horario de Preferencia</label>
+            <select required class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white text-slate-700">
+              <option value="mañana">🌅 Mañana: 8 a 11 am (Bogotá) / 7 a 10 am (CDMX)</option>
+              <option value="tarde">☀️ Tarde: 2 a 5 pm (Bogotá) / 1 a 4 pm (CDMX)</option>
+              <option value="noche">🌙 Noche: 8 a 11 pm (Bogotá) / 7 a 10 pm (CDMX)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="w-full mt-3 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm tracking-wide shadow-lg shadow-indigo-600/25 transition-all">
+            Confirmar Reserva ($160 USD)
+          </button>
+        </form>
+      </div>
+
+      <!-- Confirmación de éxito -->
+      <div id="modal-success-content" class="hidden text-center py-6">
+        <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-4">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <h4 class="text-2xl font-bold text-slate-900">¡Tu lugar ha sido apartado!</h4>
+        <p class="mt-2 text-sm text-slate-600">
+          Nos pondremos en contacto contigo de inmediato para coordinar tu fecha y enviarte los detalles de acceso.
+        </p>
+        <div class="mt-5 p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-left font-mono text-xs">
+          <div>TARIFA: <strong class="text-indigo-600">$160 USD</strong></div>
+          <div class="mt-1">FORMATO: <span>Virtual en vivo (Grupo de 1 a 6 personas)</span></div>
+        </div>
+        <button onclick="closeModal()" class="mt-6 w-full py-3 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-slate-800 transition-colors">
+          Cerrar Ventana
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- SCRIPTS INTERACTIVOS (CHAT, SIMULACIÓN DE PARTÍCULAS Y MODAL) -->
+  <!-- ========================================================================= -->
+  <script>
+    // --- LÓGICA DEL SIMULADOR GRÁFICO (PARTÍCULAS Y FÍSICA EN TIEMPO REAL) ---
+    const canvas = document.getElementById('particle-canvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let particleColor = '#6366f1';
+    let mouse = { x: null, y: null, radius: 100 };
+
+    function resizeCanvas() {
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width;
+      canvas.height = rect.height;
+      initParticles();
+    }
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 3 + 1.5;
+        this.baseX = this.x;
+        this.baseY = this.y;
+        this.density = Math.random() * 20 + 5;
+        this.vx = (Math.random() - 0.5) * 1.5;
+        this.vy = (Math.random() - 0.5) * 1.5;
+      }
+
+      draw() {
+        ctx.fillStyle = particleColor;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.fill();
+      }
+
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+
+        if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+        if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+
+        // Interacción con mouse
+        if (mouse.x !== null && mouse.y !== null) {
+          let dx = mouse.x - this.x;
+          let dy = mouse.y - this.y;
+          let distance = Math.sqrt(dx * dx + dy * dy);
+          if (distance < mouse.radius) {
+            let forceDirectionX = dx / distance;
+            let forceDirectionY = dy / distance;
+            let force = (mouse.radius - distance) / mouse.radius;
+            let directionX = forceDirectionX * force * this.density;
+            let directionY = forceDirectionY * force * this.density;
+            this.x -= directionX;
+            this.y -= directionY;
+          }
+        }
+      }
+    }
+
+    function initParticles() {
+      particles = [];
+      const numberOfParticles = Math.floor((canvas.width * canvas.height) / 4500);
+      for (let i = 0; i < numberOfParticles; i++) {
+        particles.push(new Particle());
+      }
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      // Conectar partículas cercanas con líneas luminosas
+      for (let a = 0; a < particles.length; a++) {
+        for (let b = a; b < particles.length; b++) {
+          let dx = particles[a].x - particles[b].x;
+          let dy = particles[a].y - particles[b].y;
+          let distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < 75) {
+            ctx.strokeStyle = particleColor;
+            ctx.globalAlpha = 1 - distance / 75;
+            ctx.lineWidth = 0.8;
+            ctx.beginPath();
+            ctx.moveTo(particles[a].x, particles[a].y);
+            ctx.lineTo(particles[b].x, particles[b].y);
+            ctx.stroke();
+            ctx.globalAlpha = 1.0;
+          }
+        }
+      }
+
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].draw();
+        particles[i].update();
+      }
+      requestAnimationFrame(animateParticles);
+    }
+
+    function cambiarColorParticulas(color) {
+      particleColor = color;
+    }
+
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      mouse.x = e.clientX - rect.left;
+      mouse.y = e.clientY - rect.top;
+    });
+
+    canvas.addEventListener('mouseleave', () => {
+      mouse.x = null;
+      mouse.y = null;
+    });
+
+    window.addEventListener('resize', resizeCanvas);
+    setTimeout(resizeCanvas, 100);
+    animateParticles();
+
+    // --- LÓGICA DEL CHAT SIMULADO EN ESPAÑOL ---
+    const ejemplosChat = {
+      1: {
+        usuario: "Hola amigo, tengo un negocio de asesorías y quiero una página web moderna donde la gente pueda ver mis servicios y dejarme sus datos. Conéctala a una tabla donde yo pueda ver los clientes y que todo quede listo para usarse.",
+        respuesta: "¡Cuenta con ello, socio! No te preocupes por la parte técnica. Ya entendí tu objetivo: voy a crear una página elegante con diseño claro, conectaré un formulario para guardar los contactos en tu base de datos y comprobaré que todo funcione antes de entregártela.",
+        pasos: [
+          "1. Estructura y diseño de la página creados (diseño limpio y profesional).",
+          "2. Base de datos conectada para recibir nombres, correos y teléfonos.",
+          "3. Verificación automática en navegador: El formulario envía los datos sin fallar."
+        ],
+        tiempo: "2 minutos y 15 segundos"
+      },
+      2: {
+        usuario: "Tengo un desorden con los pedidos que me llegan por WhatsApp y correo. Necesito que se registren automáticamente en una tabla organizada y que se envíe una confirmación a los clientes.",
+        respuesta: "¡Totalmente resuelto! Voy a crear un asistente que reciba los datos de cada pedido, los ordene en tu sistema en tiempo real y prepare la respuesta para tus clientes sin que tengas que copiar y pegar a mano.",
+        pasos: [
+          "1. Flujo de lectura de mensajes activado.",
+          "2. Tabla de pedidos organizada por cliente, fecha y monto.",
+          "3. Envío de confirmaciones automáticas verificado con éxito."
+        ],
+        tiempo: "3 minutos y 40 segundos"
+      },
+      3: {
+        usuario: "Quiero que mi equipo de ventas y operaciones pueda generar reportes semanales y propuestas comerciales con la misma herramienta sin depender de programadores externos.",
+        respuesta: "¡Excelente decisión estratégica! Vamos a configurar a tu asistente con las plantillas y reglas de tu empresa para que cualquier persona de tu equipo solo tenga que pedir el reporte y el asistente lo genere en segundos con el formato exacto.",
+        pasos: [
+          "1. Reglas y formato de tu empresa aprendidos por el asistente.",
+          "2. Conexión directa a los datos de ventas semanales.",
+          "3. Generador de propuestas listo para ser usado por tu equipo."
+        ],
+        tiempo: "4 minutos y 10 segundos"
+      }
+    };
+
+    let ejemploActual = 1;
+
+    function cargarEjemploChat(id) {
+      ejemploActual = id;
+      
+      [1, 2, 3].forEach(num => {
+        const tab = document.getElementById(`chat-tab-${num}`);
+        if (tab) {
+          if (num === id) {
+            tab.className = "px-4 py-2 text-xs font-bold rounded-xl bg-indigo-600 text-white shadow-sm transition-all";
+          } else {
+            tab.className = "px-4 py-2 text-xs font-bold rounded-xl bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 transition-all";
+          }
+        }
+      });
+
+      iniciarAnimacionChat();
+    }
+
+    function iniciarAnimacionChat() {
+      const data = ejemplosChat[ejemploActual];
+      const userMsg = document.getElementById('chat-user-message');
+      const aiText = document.getElementById('chat-ai-text');
+      const actionsList = document.getElementById('chat-actions-list');
+
+      userMsg.innerText = `"${data.usuario}"`;
+      aiText.innerText = `"${data.respuesta}"`;
+
+      let pasosHtml = '';
+      data.pasos.forEach((paso) => {
+        pasosHtml += `
+          <div class="flex items-center space-x-2 text-emerald-600">
+            <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+            <span>${paso}</span>
+          </div>
+        `;
+      });
+
+      pasosHtml += `
+        <div class="mt-2 pt-2 border-t border-slate-100 text-slate-500 font-semibold flex justify-between items-center">
+          <span>Tiempo total de ejecución:</span>
+          <span class="text-indigo-600 font-bold">${data.tiempo}</span>
+        </div>
+      `;
+
+      actionsList.innerHTML = pasosHtml;
+    }
+
+    // Modal
+    function openModal() {
+      document.getElementById('reservation-modal').classList.remove('hidden');
+    }
+
+    function openModalWithProfile(perfil) {
+      openModal();
+      const select = document.getElementById('modal-role-select');
+      if (select) {
+        select.value = perfil;
+      }
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('reservation-modal');
+      modal.classList.add('hidden');
+      setTimeout(() => {
+        document.getElementById('modal-form-content').classList.remove('hidden');
+        document.getElementById('modal-success-content').classList.add('hidden');
+        document.getElementById('lead-form').reset();
+      }, 300);
+    }
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      document.getElementById('modal-form-content').classList.add('hidden');
+      document.getElementById('modal-success-content').classList.remove('hidden');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+  </script>
+
+</body>
+</html>

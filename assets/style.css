@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #4f46e5;
+  --primary-glow: rgba(79, 70, 229, 0.15);
+  --cyan-glow: rgba(6, 182, 212, 0.15);
+  --rose-glow: rgba(244, 63, 94, 0.12);
+  --glass-bg: rgba(255, 255, 255, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(226, 232, 240, 0.6);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Fondo de Luz Prismática y Malla Cuántica */
+.prismatic-canvas {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
+    radial-gradient(at 90% 15%, rgba(6, 182, 212, 0.14) 0px, transparent 45%),
+    radial-gradient(at 50% 50%, rgba(244, 63, 94, 0.08) 0px, transparent 60%),
+    radial-gradient(at 20% 85%, rgba(16, 185, 129, 0.10) 0px, transparent 50%),
+    radial-gradient(at 80% 90%, rgba(168, 85, 247, 0.12) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Patrón sutil de cuadrícula de precisión técnica */
+.tech-grid-pattern {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(148, 163, 184, 0.09) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.09) 1px, transparent 1px);
+}
+
+/* Cristal Esmerilado Claro (Frosted Glassmorphism) */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.04), 0 4px 12px -2px rgba(15, 23, 42, 0.02), inset 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+.glass-panel-elevated {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 25px 50px -12px rgba(99, 102, 241, 0.08), 0 8px 24px -4px rgba(15, 23, 42, 0.04), inset 0 2px 0 rgba(255, 255, 255, 1);
+}
+
+/* Borde Iridiscente Reactivo */
+.iridescent-border {
+  position: relative;
+  border-radius: 1.25rem;
+}
+
+.iridescent-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, #6366f1, #06b6d4, #f43f5e, #10b981, #6366f1);
+  background-size: 300% 300%;
+  animation: iridescent-spin 8s ease infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.65;
+  transition: opacity 0.4s ease;
+}
+
+.iridescent-border:hover::before {
+  opacity: 1;
+}
+
+@keyframes iridescent-spin {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Gradientes de texto de alta definición */
+.text-gradient-primary {
+  background: linear-gradient(135deg, #0f172a 15%, #4338ca 65%, #0284c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-accent {
+  background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 50%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Pulso de Estado Vivo */
+.live-pulse {
+  animation: live-pulse-anim 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes live-pulse-anim {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.15); }
+}
+
+/* Barra de desplazamiento estética */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  border: 2px solid #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Efecto de terminal claro técnico */
+.terminal-light {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(203, 213, 225, 0.9);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.01), 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+}
+
+/* Shimmer de luz flotante */
+.light-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.light-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  animation: shimmer 5s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -150%; }
+  35% { left: 150%; }
+  100% { left: 150%; }
+}
+
+/* Efecto Ken Burns para escenas cinematográficas */
+@keyframes kenburns {
+  0% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.08) translate(-1%, -0.8%); }
+  100% { transform: scale(1) translate(0, 0); }
+}
+
+.ken-burns {
+  animation: kenburns 12s ease-in-out infinite alternate;
+}
+
+.cinema-glow {
+  box-shadow: 0 30px 100px -20px rgba(99, 102, 241, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
