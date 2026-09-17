@@ -635,15 +635,15 @@
       const perfil = document.getElementById('f_perfil').value;
       const pais = document.getElementById('f_pais').value;
       
-      const mensaje = ¡Hola! Quiero aplicar al Laboratorio Antigravity. Mis datos son:\n\n*Nombre:* \n*Correo:* \n*WhatsApp:*  \n*Perfil:* \n*País:* ;
-      const whatsappUrl = https://wa.me/573138544974?text=;
+      const mensaje = `¡Hola! Quiero aplicar al Laboratorio Antigravity. Mis datos son:\n\n*Nombre:* ${nombre}\n*Correo:* ${correo}\n*WhatsApp:* ${cod} ${tel}\n*Perfil:* ${perfil}\n*País:* ${pais}`;
+      const whatsappUrl = `https://wa.me/573138544974?text=${encodeURIComponent(mensaje)}`;
       
       const originalText = btn.innerHTML;
-      btn.innerHTML = <span class="animate-spin inline-block w-5 h-5 border-2 border-white/30 border-t-white rounded-full"></span> <span>Procesando...</span>;
+      btn.innerHTML = `<span class="animate-spin inline-block w-5 h-5 border-2 border-white/30 border-t-white rounded-full"></span> <span>Procesando...</span>`;
       btn.disabled = true;
       
       setTimeout(() => {
-        btn.innerHTML = <span>¡Abriendo WhatsApp!</span> <svg class="w-5 h-5 ml-1 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>;
+        btn.innerHTML = `<span>¡Abriendo WhatsApp!</span> <svg class="w-5 h-5 ml-1 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>`;
         btn.classList.replace('bg-blue-800', 'bg-emerald-600');
         setTimeout(() => {
           window.open(whatsappUrl, '_blank');
